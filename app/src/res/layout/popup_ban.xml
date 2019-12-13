@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/popup_border">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="You are currently banned from renting golf carts with GoFu. Please contact an administrator."
+        android:textColor="#0E0D0D"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:text="Uh oh!"
+        android:textColor="#0E0D0D"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/textView32"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/sad" />
+</RelativeLayout>

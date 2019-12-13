@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/welcome_to"
+        android:textColor="#0E0D0D"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:id="@+id/App_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/faster_one"
+        android:text="@string/gofu"
+        android:textColor="#0E0D0D"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/btnRent"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/user_button"
+        android:text="@string/rent_cart"
+        android:textColor="#61AC0B"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/user_button"
+        android:text="@string/return_cart"
+        android:textColor="#61AC0B"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnReport"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/user_button"
+        android:text="@string/report_cart_issues"
+        android:textColor="#61AC0B"
+        android:textStyle="bold" />
+</RelativeLayout>

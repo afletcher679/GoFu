@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:background="@drawable/item_border">
+
+    <TextView
+        android:id="@+id/cartId"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:text="@string/cart_id"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/tvCartId"
+        android:layout_width="43dp"
+        android:layout_height="32dp"
+        android:layout_toRightOf="@id/cartId"
+        android:text="@string/textview"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/tvRepairNum"
+        android:layout_width="93dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_toEndOf="@id/cartId"
+        android:layout_toRightOf="@id/cartId"
+        android:gravity="center"
+        android:text="@string/textview"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/tvRepairDate"
+        android:layout_width="103dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_toEndOf="@id/tvRepairNum"
+        android:layout_toRightOf="@id/tvRepairNum"
+        android:gravity="center"
+        android:text="@string/textview"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/tvRepairStatus"
+        android:layout_width="85dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_toEndOf="@id/tvRepairDate"
+        android:layout_toRightOf="@id/tvRepairDate"
+        android:gravity="center"
+        android:text="@string/textview"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/tvIssues"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cartId"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/textview"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+</RelativeLayout>

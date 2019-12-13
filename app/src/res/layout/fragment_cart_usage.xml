@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:text="Use of Cart ID: "
+        android:textSize="24sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/tvCartid"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:layout_toRightOf="@id/textView24"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textColor="#0E0D0D"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCartUse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView39" />
+
+    <Spinner
+        android:id="@+id/spSort"
+        android:layout_width="152dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/tvCartid"
+        android:entries="@array/sort" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="124dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/textView24"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Search by month, day, or year"
+        android:textColor="#0E0D0D" />
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView24"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/textView39"
+        android:hint="@android:string/search_go"
+        android:textColor="#0E0D0D"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView24"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/etSearch"
+        android:text="@android:string/search_go" />
+</RelativeLayout>

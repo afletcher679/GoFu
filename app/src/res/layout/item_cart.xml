@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/item_border">
+
+    <TextView
+        android:id="@+id/CartID"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:textColor="#0E0D0D"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="107dp"
+        android:layout_height="47dp"
+        android:layout_alignStart="@id/CartID"
+        android:layout_alignLeft="@id/CartID"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:gravity="center"
+        android:textColor="#0E0D0D"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/Status_drop"
+        android:layout_width="164dp"
+        android:layout_height="47dp"
+        android:layout_alignStart="@id/tvStatus"
+        android:layout_alignLeft="@id/tvStatus"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:entries="@array/status"
+        android:prompt="@string/carts_status" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/user_button"
+        android:text="@string/update"/>
+</RelativeLayout>

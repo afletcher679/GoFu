@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvNme"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Myaccount"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/textView36"
+        android:text="@string/textview"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/tvRatID"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Myaccount"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="44dp"
+        android:layout_toRightOf="@id/textView37"
+        android:text="@string/textview"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/tvPhne"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Myaccount"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@id/textView37"
+        android:text="@string/textview"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/Myaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:text="My Account"
+        android:textAlignment="center"
+        android:textColor="#0E0D0D"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Myaccount"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="115dp"
+        android:layout_toRightOf="@id/textView35"
+        android:text="@string/textview"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <Button
+        android:id="@+id/btnEditEmail"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView35"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="125dp"
+        android:background="@drawable/user_button"
+        android:text="Edit Email"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Myaccount"
+        android:layout_marginTop="115dp"
+        android:text="@string/email_"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Myaccount"
+        android:layout_marginTop="10dp"
+        android:text="@string/name_"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Myaccount"
+        android:layout_marginTop="44dp"
+        android:text="@string/rattler_id_"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Myaccount"
+        android:layout_marginTop="80dp"
+        android:text="@string/phone_"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <Button
+        android:id="@+id/btnEditPW"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnEditEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/user_button"
+        android:text="Change Password"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

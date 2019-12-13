@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/item_border">
+
+    <TextView
+        android:id="@+id/tvtimeIn"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView26"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/textView33"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="16sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cart_id"
+        android:textSize="16sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/tvCartid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView26"
+        android:text="TextView"
+        android:textSize="16sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_toRightOf="@id/tvCartid"
+        android:text="Date Rented: "
+        android:textSize="16sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView29"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="16sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView26"
+        android:layout_marginTop="5dp"
+        android:text="Cart Rented at: "
+        android:textSize="16sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/tvtimeOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView26"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/textView31"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="16sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView26"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/tvtimeOut"
+        android:text="Cart Returned at: "
+        android:textSize="16sp"
+        android:textColor="#0E0D0D"/>
+</RelativeLayout>

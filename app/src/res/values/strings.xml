@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">GoFu</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="login">Login</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email_username">Enter Email/Username</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logo">Logo</string>
+    <string name="save">Save</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone #</string>
+    <string name="dob">DOB</string>
+    <string name="rattler_id">Rattler ID</string>
+    <string name="Signup">Sign Up!</string>
+    <string name="update_carts">Update Carts</string>
+    <string name="maintaince_status_cart_update">Maintaince Status Cart Update</string>
+    <string name="cart_id_cart_status">Cart ID Cart Status</string>
+    <string name="cart_id">Cart ID</string>
+    <string name="cart_status">Cart_Status</string>
+    <string name="workorder_status">Workorder Status</string>
+
+    <string-array name="sort">
+        <item>By Day</item>
+        <item>By Month</item>
+        <item>By Year</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Out of Service</item>
+        <item>Available</item>
+    </string-array>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="title_home">Home</string>
+    <string name="todo">TODO</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="more">More</string>
+    <string name="logout">Logout</string>
+    <string name="don_t_have_an_account">Don\'t have an account?  Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="account_fragment">Account Fragment</string>
+    <string name="more_fragment">More Fragment</string>
+    <string name="carts_status">Carts Status</string>
+    <string name="carts_current_status">Carts Current Status</string>
+    <string name="cart_ids">Cart IDs</string>
+    <string name="current_status">Current Status</string>
+    <string name="update_status">Update Status</string>
+    <string name="update">Update!</string>
+    <string name="current_status_">Current status:</string>
+    <string name="ban_user">Ban User</string>
+    <string name="name_">Name:</string>
+    <string name="rattler_id_">Rattler ID:</string>
+    <string name="email_">Email:</string>
+    <string name="phone_">Phone #:</string>
+    <string name="location">Location</string>
+    <string name="return_date">Return Date:</string>
+    <string name="return_time">Return Time:</string>
+    <string name="flat_tire">Flat Tire</string>
+    <string name="broken_headlight">Broken Headlight</string>
+    <string name="report_issue_with_cart">Report Issue with Cart</string>
+    <string name="report_date">Report Date:</string>
+    <string name="report_time">Report Time:</string>
+    <string name="please_select_the_issue_s_with_the_cart">Please select the issue(s) with the cart:</string>
+    <string name="accident">Accident</string>
+    <string name="dead_battery">Dead Battery</string>
+    <string name="faulty_direction_switch">Faulty Direction Switch</string>
+    <string name="motor_issue">Motor Issue</string>
+    <string name="no_speed_control_brakes">No Speed Control/ Brakes</string>
+    <string name="submit_issue">Submit Issue</string>
+    <string name="textview">TextView</string>
+    <string name="gofu">GOFU</string>
+    <string name="rent_cart">Rent Cart</string>
+    <string name="return_cart">Return Cart</string>
+    <string name="report_cart_issues">Report Cart Issues</string>
+    <string name="browse_users">Browse Users</string>
+    <string name="cart_usage_log">Cart Usage Log</string>
+    <string name="welcome_administrator">Welcome Administrator</string>
+
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/item_border"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvRatId"
+        android:layout_width="123dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:textColor="#0E0D0D"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="121dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tvRatId"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="#0F0D0D"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="121dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btnBan"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="290dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/textview"
+        android:layout_toRightOf="@id/textview"
+        android:gravity="center"
+        android:textColor="#0E0D0D"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="121dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="43dp"
+        android:layout_toEndOf="@id/tvName"
+        android:layout_toRightOf="@id/tvName"
+        android:gravity="center_horizontal"
+        android:text="@string/current_status_"
+        android:textColor="#0E0D0D"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnBan"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/user_button"
+        android:text="Ban/ Unban"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

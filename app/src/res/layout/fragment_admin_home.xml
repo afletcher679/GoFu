@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/welcome_administrator"
+        android:textColor="#0E0D0D"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:id="@+id/App_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/faster_one"
+        android:text="@string/gofu"
+        android:textColor="#0E0D0D"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/btnRent"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/browse_users"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/user_button"/>
+
+    <Button
+        android:id="@+id/btnLog"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="@string/cart_usage_log"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/user_button"/>
+</RelativeLayout>

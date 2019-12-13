@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/report_issue_with_cart"
+        android:textSize="24sp"
+        android:textColor="#0E0D0D"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="73dp"
+        android:layout_height="43dp"
+        android:layout_below="@id/textView10"
+        android:layout_marginTop="66dp"
+        android:gravity="center"
+        android:text="@string/cart_id"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView10"
+        android:layout_marginTop="27dp"
+        android:text="@string/report_date"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView10"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@id/tvDate"
+        android:layout_toRightOf="@id/tvDate"
+        android:text="@string/report_time"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="90dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/textView10"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@id/textView16"
+        android:layout_toRightOf="@id/textView16"
+        android:gravity="center"
+        android:text="@string/textview"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="77dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/textView10"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@id/textView18"
+        android:layout_toRightOf="@id/textView18"
+        android:gravity="center"
+        android:text="@string/textview"
+        android:textColor="#0E0D0D"/>
+
+    <EditText
+        android:id="@+id/etCartId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView10"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="64dp"
+        android:layout_toEndOf="@id/textView11"
+        android:layout_toRightOf="@id/textView11"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="text"
+        tools:targetApi="o"
+        android:textColor="#0E0D0D"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etCartId"
+        android:layout_marginTop="35dp"
+        android:text="@string/please_select_the_issue_s_with_the_cart"
+        android:textSize="18sp"
+        android:textColor="#0E0D0D"/>
+
+    <CheckBox
+        android:id="@+id/cbBroke"
+        android:onClick="SelectIssues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView17"
+        android:layout_marginTop="42dp"
+        android:text="@string/broken_headlight"
+        android:textColor="#0E0D0D"/>
+
+    <CheckBox
+        android:id="@+id/cbFlat"
+        android:onClick="SelectIssues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView17"
+        android:text="@string/flat_tire"
+        android:textColor="#0E0D0D"/>
+
+    <CheckBox
+        android:id="@+id/cbAccident"
+        android:onClick="SelectIssues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView17"
+        android:layout_marginTop="256dp"
+        android:text="@string/accident"
+        android:textColor="#0E0D0D"/>
+
+    <CheckBox
+        android:id="@+id/cbDead"
+        android:onClick="SelectIssues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView17"
+        android:layout_marginTop="211dp"
+        android:text="@string/dead_battery"
+        android:textColor="#0E0D0D"/>
+
+    <CheckBox
+        android:id="@+id/cbFaulty"
+        android:onClick="SelectIssues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView17"
+        android:layout_marginTop="169dp"
+        android:text="@string/faulty_direction_switch"
+        android:textColor="#0E0D0D"/>
+
+    <CheckBox
+        android:id="@+id/cbMotor"
+        android:onClick="SelectIssues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView17"
+        android:layout_marginTop="128dp"
+        android:text="@string/motor_issue"
+        android:textColor="#0E0D0D"/>
+
+    <CheckBox
+        android:id="@+id/cbSpeed"
+        android:onClick="SelectIssues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView17"
+        android:layout_marginTop="84dp"
+        android:text="@string/no_speed_control_brakes"
+        android:textColor="#0E0D0D"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView17"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/user_button"
+        android:text="@string/submit_issue"
+        android:textColor="#61AC0B"
+        android:textStyle="bold" />
+
+</RelativeLayout>
