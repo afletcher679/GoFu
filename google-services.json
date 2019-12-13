@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1098140733092",
+    "firebase_url": "https://gofu-39550.firebaseio.com",
+    "project_id": "gofu-39550",
+    "storage_bucket": "gofu-39550.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098140733092:android:e0c2a1f3098b6434292031",
+        "android_client_info": {
+          "package_name": "com.example.gofu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098140733092-db3vg2es7hpq7h1f6g4nqh45pbp1938l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gofu",
+            "certificate_hash": "7aa84228fec806e3cdce963cc96a818aa90b8673"
+          }
+        },
+        {
+          "client_id": "1098140733092-fbf44u6g84u97sfole2hn8pm4647r0k6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt2w2aZqhUqcmS8NG6T471hf823ylYN3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098140733092-fbf44u6g84u97sfole2hn8pm4647r0k6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
